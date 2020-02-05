@@ -10,6 +10,7 @@ RUN apt-get update \
        locales \
        python-setuptools \
        python-pip \
+       git \
        ssh \
        software-properties-common \
        rsyslog systemd systemd-cron sudo iproute2 \
