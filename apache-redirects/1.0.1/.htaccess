@@ -1,0 +1,2 @@
+#RewriteEngine On
+#RewriteRule ^(.*)$ http://www.hellomagazine.com/?kaka [R=301]
