@@ -1,0 +1,2 @@
+#RewriteEngine On
+#RewriteRule ^/test/$ http://www.hellomagazine.com/?ka [R=301]
