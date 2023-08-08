@@ -11940,7 +11940,8 @@ RedirectMatch 301 ^/legal/?$ https://www.hellomagazine.com/binding-contract-term
 RedirectMatch 301 ^/digital-editions/?$ https://www.hellomagazine.com/subscribe/ 
 RedirectMatch 301 ^/back-issues/?$ https://www.hellomagazine.com/faqs/ 
 RedirectMatch 301 ^/contact/?$ https://www.hellomagazine.com/contact/ 
-RedirectMatch 301 ^/subscriptions/?$ https://www.hellomagazine.com/subscribe/ 
+RedirectMatch 301 ^/subscriptions/?$ https://www.hellomagazine.com/subscribe/  
 RedirectMatch 301 ^/advertising-magazine/?$ https://www.hellomagazine.com/mediapack/ 
 
-#RewriteRule ^(.*)$ http://www.hellomagazine.com/ [R=301]
+RedirectMatch 301 ^/$ https://www.hellomagazine.com/
+

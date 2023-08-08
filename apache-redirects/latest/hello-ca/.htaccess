@@ -5215,3 +5215,5 @@ RedirectMatch 301 /summer-fashion-beauty/travel/ https://www.hellomagazine.com/t
 RedirectMatch 301 /summer-fashion-beauty/video/ https://www.hellomagazine.com/fashion/royal-style/ 
 RedirectMatch 301 /tiff-2019 https://www.hellomagazine.com/ 
 RedirectMatch 301 /hello/royalty/royal-baby/inc_bloque.html https://www.hellomagazine.com/royalty/ 
+
+RewriteRule ^/$ http://www.hellomagazine.com/ [R=301,L]
