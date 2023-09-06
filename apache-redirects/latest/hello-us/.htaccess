@@ -11945,3 +11945,4 @@ RedirectMatch 301 ^/advertising-magazine/?$ https://www.hellomagazine.com/mediap
 
 RedirectMatch 301 ^/$ https://www.hellomagazine.com/
 
+RedirectMatch 301 ^/testchange https://www.hellomagazine.com?testchange
