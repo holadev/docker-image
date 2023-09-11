@@ -11943,6 +11943,4 @@ RedirectMatch 301 ^/contact/?$ https://www.hellomagazine.com/contact/
 RedirectMatch 301 ^/subscriptions/?$ https://www.hellomagazine.com/subscribe/  
 RedirectMatch 301 ^/advertising-magazine/?$ https://www.hellomagazine.com/mediapack/ 
 
-RedirectMatch 301 ^/$ https://www.hellomagazine.com/
-
-RedirectMatch 301 ^/testchange https://www.hellomagazine.com?testchange
+RedirectMatch 301 ^/$ https://www.hellomagazine.com/us/
