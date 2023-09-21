@@ -227,3 +227,5 @@ Redirect 301 /farmaciameritxell/2022/1/menopausia-que-suplementos-naturales-pode
 Redirect 301 /farmaciameritxell/2022/1/total-detox-como-lo-debemos-hacer.html https://www.hola.com/estar-bien/20220120238335/total-detox-paso-a-paso/
 Redirect 301 /farmaciameritxell/2022/2/calmar-las-rojeces-de-la-piel.html https://www.hola.com/estar-bien/20220215238333/calmar-rojeces-piel/
 Redirect 301 /farmaciameritxell/2022/3/sabes-que-la-equinacea-puede-estimular-el-sistema-inmune.html https://www.hola.com/estar-bien/20220315238327/equinacea-beneficios-sistema-inmunologico/
+
+RedirectMatch 301 ^/$ https://www.hola.com/
