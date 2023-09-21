@@ -8,6 +8,8 @@ RUN mkdir -p /var/www/hola-blog
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
 COPY httpd-vhosts.conf /usr/local/apache2/conf/httpd-vhosts.conf
 
+COPY index.html /var/www/
+
 COPY index.html /var/www/hola-blog/
 COPY index.html /var/www/hola-us/
 COPY index.html /var/www/hola-ca/
