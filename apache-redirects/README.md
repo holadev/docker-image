@@ -1,3 +1,5 @@
+docker login
+
 ``
 docker build -t holadevdocker/apache-redirects:1.0.1 -f Dockerfile .
 
