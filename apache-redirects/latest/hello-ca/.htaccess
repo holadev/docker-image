@@ -5214,6 +5214,8 @@ RedirectMatch 301 /summer-fashion-beauty/shopping/ https://www.hellomagazine.com
 RedirectMatch 301 /summer-fashion-beauty/travel/ https://www.hellomagazine.com/travel/ 
 RedirectMatch 301 /summer-fashion-beauty/video/ https://www.hellomagazine.com/fashion/royal-style/ 
 RedirectMatch 301 /tiff-2019 https://www.hellomagazine.com/ 
-RedirectMatch 301 /hello/royalty/royal-baby/inc_bloque.html https://www.hellomagazine.com/royalty/ 
+RedirectMatch 301 /hello/royalty/royal-baby/inc_bloque.html https://www.hellomagazine.com/royalty/
+RedirectMatch 301 /deal https://secure.hellomagazine.ca/D3J2ZZZH
+RedirectMatch 301 /save https://secure.hellomagazine.ca/D3J2ZZZH
 
 RedirectMatch 301 ^/$ https://www.hellomagazine.com/ca/
