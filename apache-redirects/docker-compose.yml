@@ -1,0 +1,10 @@
+version: '3'
+services:
+  apache-redirects:
+    build:
+      context: ./latest
+      dockerfile: Dockerfile
+    container_name: apache-redirects
+    privileged: true
+    ports:
+      - "8080:80"
