@@ -5218,4 +5218,20 @@ RedirectMatch 301 /hello/royalty/royal-baby/inc_bloque.html https://www.hellomag
 RedirectMatch 301 /deal https://secure.hellomagazine.ca/D3J2ZZZH
 RedirectMatch 301 /save https://secure.hellomagazine.ca/D3J1ZZZH
 
+# Not generated sections
+RewriteCond %{REQUEST_URI} ^\/(weddings|the-buzz)\/?$
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+# Reused sections
+RewriteCond %{REQUEST_URI} ^\/(specials/|tags/[^0/](.*)|homes/|horoscopes/|blogs/|search/|styles/|celebrities-news-in-pics/|graphics/|a/js/seo-search.js|photo-gallery.html|twitter-proxy.php|royalty/royalhouses.html|zoom.html)
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+# Articles
+RewriteCond %{REQUEST_URI} ^\/(news|travel|healthandbeauty|weddings|royalty|fashion|cuisine|brides|celebrities|profiles|film|music|the-buzz)(?!\/gallery)
+RewriteCond %{REQUEST_URI} ^\/(news|travel|healthandbeauty|weddings|royalty|fashion|cuisine|brides|celebrities|profiles|film|music|the-buzz)(?!\/feed)
+RewriteCond %{REQUEST_URI} ^\/(news|travel|healthandbeauty|weddings|royalty|fashion|cuisine|brides|celebrities|profiles|film|music|the-buzz)(?!\/siteMap)
+RewriteCond %{REQUEST_URI} ^\/(news|travel|healthandbeauty|weddings|royalty|fashion|cuisine|brides|celebrities|profiles|film|music|the-buzz)\/[^0]
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+# Generic fallback
 RedirectMatch 301 ^/$ https://www.hellomagazine.com/ca/

@@ -24,6 +24,14 @@ This is an example. Must returns a redirect
 curl -Is 'http://0.0.0.0:8080' -H "Host: ca.hellomagazine.com"
 ```
 
+Some real requests
+
+```bash
+curl -Is 'http://0.0.0.0:8080/film/2017092142594/im-a-celeb-2017-rumoured-line-up/' -H "Host: us.hellomagazine.com"
+curl -Is 'http://0.0.0.0:8080/royalty/505525/disappointing-news-for-princess-annes-son-peter-phillips-revealed/' -H "Host: us.hellomagazine.com"
+curl -Is 'http://0.0.0.0:8080/tags/prince-william/' -H "Host: ca.hellomagazine.com"
+```
+
 ## Procedure to make changes in image and redeploy in AWS
 
 1. Make the necessary changes to the project, vhosts, configurations, etc. Perform the commit and push to the project.

@@ -11943,4 +11943,58 @@ RedirectMatch 301 ^/contact/?$ https://www.hellomagazine.com/contact/
 RedirectMatch 301 ^/subscriptions/?$ https://www.hellomagazine.com/subscribe/  
 RedirectMatch 301 ^/advertising-magazine/?$ https://www.hellomagazine.com/mediapack/ 
 
+# Specific redirects
+RewriteCond %{REQUEST_URI} ^\/(celebrities|entertainment|news-in-pics|music|film)\/?$
+RewriteRule (.*) https://www.hellomagazine.com/celebrities/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/(fashion|brides)\/?$
+RewriteRule (.*) https://www.hellomagazine.com/fashion/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/health-and-beauty\/?$
+RewriteRule (.*) https://www.hellomagazine.com/healthandbeauty/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/videos\/?$
+RewriteRule (.*) https://www.hellomagazine.com/celebrities/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/hello-delicious\/?$
+RewriteRule (.*) https://www.hellomagazine.com/cuisine/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/the-buzz\/?$
+RewriteRule (.*) https://www.hellomagazine.com/the-buzz/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/(royal-weddings|royalty)\/?$
+RewriteRule (.*) https://www.hellomagazine.com/royalty/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/travel\/?$
+RewriteRule (.*) https://www.hellomagazine.com/travel/ [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/weddings\/?$
+RewriteRule (.*) https://www.hellomagazine.com/brides/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(fashionweek\.(.*)?/?)$ [NC]
+RewriteRule ^$ http://%1/new-york/ [NC,L,QSA]
+
+RewriteCond %{REQUEST_URI} ^\/royalty/(?!(royal-baby|gallery|siteMap))
+RewriteCond %{REQUEST_URI} ^\/royalty\/[^(0|1)]
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+# Not generated sections
+RewriteCond %{REQUEST_URI} ^\/(royalty/royal-baby-2015|brides|kings-queens|film)\/?$
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+# Reused sections
+RewriteCond %{REQUEST_URI} ^\/(specials/|tags/[^(0|1)/](.*)|homes/|horoscopes/|blogs/|search/|styles/|celebrities-news-in-pics/|kings-queens/|film/|graphics/|a/js/seo-search.js|photo-gallery.html|twitter-proxy.php|royalty/royalhouses.html|zoom.html)
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+# Articles
+RewriteCond %{REQUEST_URI} ^\/(news|healthandbeauty|fashion|travel|cuisine|brides|celebrities|profiles|film|the-buzz)(?!\/gallery)
+RewriteCond %{REQUEST_URI} ^\/(news|healthandbeauty|fashion|travel|cuisine|brides|celebrities|profiles|film|the-buzz)(?!\/feed)
+RewriteCond %{REQUEST_URI} ^\/(news|healthandbeauty|fashion|travel|cuisine|brides|celebrities|profiles|film|the-buzz)(?!\/siteMap)
+RewriteCond %{REQUEST_URI} ^\/(news|healthandbeauty|fashion|travel|cuisine|brides|celebrities|profiles|film|the-buzz)\/[^(0|1)]
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/(news|healthandbeauty|fashion|travel|cuisine|royalty|brides|celebrities|profiles|film|the-buzz)\/(gallery)\/([^(0|1)])
+RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
+
+# Generic fallback
 RedirectMatch 301 ^/$ https://www.hellomagazine.com/us/
