@@ -1,12 +1,11 @@
 RewriteEngine On
 
-Redirect 301 /andreabyrne https://www.hellomagazine.com/celebrities/
 Redirect 301 /andreabyrne/index.html https://www.hellomagazine.com/celebrities/
 Redirect 301 /andreabyrne/tag/lee-byrne/index.html https://www.hellomagazine.com/celebrities/
-Redirect 301 /donnaair/ https://www.hellomagazine.com/celebrities/
+Redirect 301 /andreabyrne https://www.hellomagazine.com/celebrities/
 Redirect 301 /donnaair/2016/11/donna-airs-latest-finds/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /donnaair/2016/12/the-style-edit/ https://www.hellomagazine.com/celebrities/
-Redirect 301 /giovannafletcher/ https://www.hellomagazine.com/tags/giovanna-fletcher/
+Redirect 301 /donnaair/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /giovannafletcher/2014/01/just-keep-swimming-just-keep-swimming/ https://www.hellomagazine.com/tags/giovanna-fletcher/
 Redirect 301 /giovannafletcher/2014/04/waiting-for-that-first-smile/ https://www.hellomagazine.com/tags/giovanna-fletcher/
 Redirect 301 /giovannafletcher/2014/06/another-week-another-adventure/ https://www.hellomagazine.com/tags/giovanna-fletcher/
@@ -19,12 +18,14 @@ Redirect 301 /giovannafletcher/2015/10/my-first-experience-of-presenting-live-tv
 Redirect 301 /giovannafletcher/2015/12/baby-scan-knitting-panto-and-a-festive-party/ https://www.hellomagazine.com/tags/giovanna-fletcher/
 Redirect 301 /giovannafletcher/index.html https://www.hellomagazine.com/tags/giovanna-fletcher/
 Redirect 301 /giovannafletcher/tag/tom-fletcher/ https://www.hellomagazine.com/tags/giovanna-fletcher/
-Redirect 301 /hottopic/ https://www.hellomagazine.com/celebrities/
+Redirect 301 /giovannafletcher/ https://www.hellomagazine.com/tags/giovanna-fletcher/
+
 Redirect 301 /hottopic/2016/09/tabitha-and-emily-discuss-how-to-look-stylish-this-autumn/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /hottopic/2016/09/tabitha-and-emily-talk-london-fashion-week/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /hottopic/2016/10/velvet-love-it-or-loathe-it/ https://www.hellomagazine.com/fashion/
+Redirect 301 /hottopic/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /jessicaknowles/2016/10/an-epiphany-fashion-moment/ https://www.hellomagazine.com/fashion/
-Redirect 301 /krihanoff/ https://www.hellomagazine.com/tags/kristina-rihanoff/
+
 Redirect 301 /krihanoff/2015/12/only-the-best-dancers-remain-in-strictly/ https://www.hellomagazine.com/tags/strictly-come-dancing/
 Redirect 301 /krihanoff/2016/09/baby-mila-is-adorable-i-cant-imagine-life-without-her/ https://www.hellomagazine.com/tags/kristina-rihanoff/
 Redirect 301 /krihanoff/2016/10/my-first-day-away-from-mila-was-nerve-racking/ https://www.hellomagazine.com/tags/kristina-rihanoff/
@@ -34,7 +35,8 @@ Redirect 301 /krihanoff/2017/01/mila-is-desperate-to-start-crawling/ https://www
 Redirect 301 /krihanoff/2017/02/my-romantic-break-to-barcelona-and-lfw/index.html https://www.hellomagazine.com/tags/kristina-rihanoff/
 Redirect 301 /krihanoff/2017/04/family-holiday-to-tenerife-and-my-charity-ball/ https://www.hellomagazine.com/tags/kristina-rihanoff/
 Redirect 301 /krihanoff/2017/05/my-big-announcement/ https://www.hellomagazine.com/tags/kristina-rihanoff/
-Redirect 301 /michellekeegan/ https://www.hellomagazine.com/tags/michelle-keegan/
+Redirect 301 /krihanoff/ https://www.hellomagazine.com/tags/kristina-rihanoff/
+
 Redirect 301 /michellekeegan/2014/05/real-heroes-and-bagging-a-treat/ https://www.hellomagazine.com/tags/michelle-keegan/
 Redirect 301 /michellekeegan/2014/07/i-have-officially-moved-away-from-manchester/ https://www.hellomagazine.com/tags/michelle-keegan/
 Redirect 301 /michellekeegan/2015/01/wrapping-on-ordinary-lies-the-strictly-tour/ https://www.hellomagazine.com/tags/michelle-keegan/
@@ -52,6 +54,7 @@ Redirect 301 /michellekeegan/2017/03/mothers-day-treats-in-manchester-and-meetin
 Redirect 301 /michellekeegan/2017/04/day-trip-to-suffolk-and-catching-up-with-family-and-friends-in-manchester/ https://www.hellomagazine.com/tags/michelle-keegan/
 Redirect 301 /michellekeegan/2017/04/paris-microblading-and-keeping-comfy-on-a-beauty-shoot/index.html https://www.hellomagazine.com/tags/michelle-keegan/
 Redirect 301 /michellekeegan/2017/04/prepping-and-packing-for-our-girl/ https://www.hellomagazine.com/tags/michelle-keegan/
+Redirect 301 /michellekeegan/ https://www.hellomagazine.com/tags/michelle-keegan/
 Redirect 301 /myweddingscrapbook/2012/11/celebrity-inspired-floral-bridal-crowns.html https://www.hellomagazine.com/tags/royal-weddings/
 Redirect 301 /myweddingscrapbook/2012/11/royal-weddings-princess-grace-of-monaco.html/ https://www.hellomagazine.com/tags/royal-weddings/
 Redirect 301 /myweddingscrapbook/2012/11/royal-weddings-queen-elizabeth-ii.html https://www.hellomagazine.com/tags/royal-weddings/
@@ -99,26 +102,26 @@ Redirect 301 /myweddingscrapbook/2014/04/theias-stunning-crop-top-wedding-dress-
 Redirect 301 /myweddingscrapbook/2014/05/poppy-delevingne-and-james-cooks-wedding.html/ https://www.hellomagazine.com/tags/poppy-delevingne/
 Redirect 301 /myweddingscrapbook/2016/04/celebrity-yellow-engagement-rings.html https://www.hellomagazine.com/tags/engagement-rings/
 Redirect 301 /myweddingscrapbook/tag/wedding-cakes/ https://www.hellomagazine.com/tags/wedding-cakes/
-Redirect 301 /natalieanderson/ https://www.hellomagazine.com/tags/natalie-anderson/
 Redirect 301 /natalieanderson/2013/04/baby-shower/ https://www.hellomagazine.com/tags/natalie-anderson/
 Redirect 301 /natalieanderson/2014/05/an-exclusive-glimpse-of-my-first-red-capret-collection/ https://www.hellomagazine.com/tags/natalie-anderson/
 Redirect 301 /natalieanderson/2014/06/fun-on-bgt-and-my-super-glamorous-hello-shoot/ https://www.hellomagazine.com/tags/natalie-anderson/
 Redirect 301 /natalieanderson/2015/09/short-breaks-pride-of-britain-and-best-beauty-buys/ https://www.hellomagazine.com/tags/natalie-anderson/
 Redirect 301 /natalieanderson/2015/12/a-trip-to-new-york-the-x-factor-and-getting-ready-for-christmas/ https://www.hellomagazine.com/tags/natalie-anderson/
 Redirect 301 /natalieanderson/2016/09/from-first-day-of-school-to-london-fashion-week/index.html https://www.hellomagazine.com/tags/natalie-anderson/
-Redirect 301 /style-and-tech/ https://www.hellomagazine.com/homes/
+Redirect 301 /natalieanderson/ https://www.hellomagazine.com/tags/natalie-anderson/
 Redirect 301 /style-and-tech/2013/03/powering-up-the-kindle-fire-hd.html/ https://www.hellomagazine.com/homes/
 Redirect 301 /style-and-tech/2013/09/celena-cherry-talks-about-the-honeyz-the-big-reunion-and-tech.html/ https://www.hellomagazine.com/homes/
 Redirect 301 /style-and-tech/index.html https://www.hellomagazine.com/homes/
 Redirect 301 /style-and-tech/page/2.html https://www.hellomagazine.com/homes/
-Redirect 301 /swetarai/ https://www.hellomagazine.com/celebrities/
+Redirect 301 /style-and-tech/ https://www.hellomagazine.com/homes/
 Redirect 301 /swetarai/2016/02/09/top-5-medical-tips-on-how-to-be-acne-free-this-valentines-day/ https://www.hellomagazine.com/celebrities/
+Redirect 301 /swetarai/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /talkbeckytalk/2014/10/16/autumn-beauty-picks/ https://www.hellomagazine.com/healthandbeauty/
-Redirect 301 /theonediary/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /theonediary/tag/hen-party-2 https://www.hellomagazine.com/celebrities/
+Redirect 301 /theonediary/ https://www.hellomagazine.com/celebrities/
 Redirect 301 /us/giovannafletcher/ https://www.hellomagazine.com/tags/giovanna-fletcher/
-Redirect 301 /giovannafletcher https://www.hellomagazine.com/tags/giovanna-fletcher/
 Redirect 301 /giovannafletcher/2015/10/my-first-experience-of-presenting-live-tv/ https://www.hellomagazine.com/tags/giovanna-fletcher/
+Redirect 301 /giovannafletcher https://www.hellomagazine.com/tags/giovanna-fletcher/
 Redirect 301 /jessicaknowles/2015/11/how-i-got-my-mojo-back-after-pregnancy/ https://www.hellomagazine.com/tags/jessica-knowles/
 Redirect 301 /michellekeegan/2017/03/mothers-day-treats-in-manchester-and-meetings-in-london/index.html https://www.hellomagazine.com/tags/michelle-keegan/
 Redirect 301 /michellekeegan/2017/06/my-first-weeks-in-cape-town/index.html https://www.hellomagazine.com/tags/michelle-keegan/
