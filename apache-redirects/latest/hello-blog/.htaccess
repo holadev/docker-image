@@ -138,5 +138,5 @@ RewriteCond  %{REQUEST_URI} ^(?:\/[a-zA-Z-]+){1,2}(?:\/[0-9]{6}\/){1}?(?:[a-zA-Z
 RewriteRule (.*) /404.html [R=404,L]
 
 # Generic fallback
-RedirectMatch 301 ^/(.*)$ https://www.hellomagazine.com/
-
+RewriteCond %{REQUEST_URI} !^/404\.html$
+RewriteRule ^(.*)$ https://www.hellomagazine.com/ [R=301,L]
