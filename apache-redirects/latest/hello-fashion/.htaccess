@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Glide Articles
+RewriteCond  %{REQUEST_URI} ^(?:\/[a-zA-Z-]+){1,2}(?:\/[0-9]{6}\/){1}?(?:[a-zA-Z0-9-]+)\/$
+RewriteRule (.*) /404.html [R=404,L]
+
+# home fallback
+RedirectMatch 301 ^/$ https://www.hellomagazine.com/fashion/ [L]
+
+# Generic fallback
+RewriteCond %{REQUEST_URI} !^/404\.html$
+RewriteRule ^(.*)$ https://www.hellomagazine.com/$1 [R=301,L]
