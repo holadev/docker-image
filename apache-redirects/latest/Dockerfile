@@ -30,6 +30,6 @@ COPY hola-premiosgoya/* /var/www/hola-premiosgoya/
 COPY hello-blog/* /var/www/hello-blog/
 COPY hello-fashion/* /var/www/hello-fashion/
 COPY hello-royal-weddings/* /var/www/hello-royal-weddings/
-COPY hello-royal-weddings/* /var/www/hello-origin/
+COPY hello-origin/* /var/www/hello-origin/
 
 EXPOSE 80
