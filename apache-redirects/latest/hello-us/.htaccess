@@ -11942,6 +11942,30 @@ RedirectMatch 301 ^/back-issues/?$ https://www.hellomagazine.com/faqs/
 RedirectMatch 301 ^/contact/?$ https://www.hellomagazine.com/contact/ 
 RedirectMatch 301 ^/subscriptions/?$ https://www.hellomagazine.com/subscribe/  
 RedirectMatch 301 ^/advertising-magazine/?$ https://www.hellomagazine.com/mediapack/
+RedirectMatch 301 ^/tags/1/british-royals/(.*)$ https://www.hellomagazine.com/tags/british-royals/ 
+RedirectMatch 301 ^/tags/1/meghan-markle/(.*)$ https://www.hellomagazine.com/tags/meghan-markle/ 
+RedirectMatch 301 ^/tags/1/royal-family/(.*)$ https://www.hellomagazine.com/royalty/ 
+RedirectMatch 301 ^/tags/1/emma-corrin/(.*)$ https://www.hellomagazine.com/tags/emma-corrin/ 
+RedirectMatch 301 ^/tags/1/prince-harry-and-meghan/(.*)$ https://www.hellomagazine.com/tags/prince-harry-and-meghan/ 
+RedirectMatch 301 ^/tags/1/kate-middleton/(.*)$ https://www.hellomagazine.com/tags/kate-middleton/ 
+RedirectMatch 301 ^/tags/1/jessica-mulroney/(.*)$ https://www.hellomagazine.com/tags/jessica-mulroney/ 
+RedirectMatch 301 ^/tags/1/prince-gabriel/(.*)$ https://www.hellomagazine.com/tags/belgian-royals/ 
+RedirectMatch 301 ^/tags/1/arthur-chatto/(.*)$ https://www.hellomagazine.com/tags/arthur-chatto/ 
+RedirectMatch 301 ^/tags/1/vanessa-kirby/(.*)$ https://www.hellomagazine.com/tags/vanessa-kirby/ 
+RedirectMatch 301 ^/tags/1/sex-and-the-city/(.*)$ https://www.hellomagazine.com/tags/sex-and-the-city/ 
+RedirectMatch 301 ^/tags/1/royalty/(.*)$ https://www.hellomagazine.com/royalty/ 
+RedirectMatch 301 ^/tags/1/dan-levy/(.*)$ https://www.hellomagazine.com/tags/dan-levy/ 
+RedirectMatch 301 ^/tags/1/prince-christian/(.*)$ https://www.hellomagazine.com/tags/prince-christian/ 
+RedirectMatch 301 ^/tags/1/gift-guides/(.*)$ https://www.hellomagazine.com/tags/gift-guide/ 
+RedirectMatch 301 ^/tags/1/george-stephanopoulos/(.*)$ https://www.hellomagazine.com/tags/george-stephanopoulos/ 
+RedirectMatch 301 ^/tags/1/prince-harry/(.*)$ https://www.hellomagazine.com/tags/prince-harry/ 
+RedirectMatch 301 ^/tags/1/recipes/(.*)$ https://www.hellomagazine.com/tags/recipes/ 
+RedirectMatch 301 ^/tags/1/royal-kids/(.*)$ https://www.hellomagazine.com/tags/royal-kids/ 
+RedirectMatch 301 ^/tags/1/royal-weddings/(.*)$ https://www.hellomagazine.com/tags/royal-wedding/ 
+RedirectMatch 301 ^/tags/1/celebrity-homes/(.*)$ https://www.hellomagazine.com/tags/celebrity-homes/ 
+RedirectMatch 301 ^/tags/1/celebrity-couples/(.*)$ https://www.hellomagazine.com/tags/celebrity-couples/ 
+RedirectMatch 301 ^/tags/1/celebrity-kids/(.*)$ https://www.hellomagazine.com/tags/celebrity-babies/ 
+RedirectMatch 301 ^/tags/1/royal-babies/(.*)$ https://www.hellomagazine.com/tags/royal-kids/ 
 
 # Glide Articles
 RewriteCond  %{REQUEST_URI} ^(?:\/[a-zA-Z-]+){1,2}(?:\/[0-9]{6}\/){1}?(?:[a-zA-Z0-9-]+)\/$
