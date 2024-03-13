@@ -5225,13 +5225,17 @@ RedirectMatch 301 /orderfast https://secure.hellomagazine.ca/J421ZZZH
 RewriteCond %{REQUEST_URI} ^\/(weddings|the-buzz)\/?$
 RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
 
+# Glide Articles
+RewriteCond %{REQUEST_URI} ^(?:\/[a-zA-Z-]+){1,2}(?:\/[0-9]{6}\/){1}?(?:[a-zA-Z0-9-]+)\/$
+RewriteRule (.*) /404.html [R=404,L]
+
+# Year 2022
+RewriteCond %{REQUEST_URI} ^\/((.+)\/){1,2}2022(\d){10}\/(.+)\/$
+RewriteRule (.*) /404.html [R=404,L]
+
 # Reused sections
 RewriteCond %{REQUEST_URI} ^\/(specials/|tags/[^0/](.*)|homes/|horoscopes/|blogs/|search/|styles/|celebrities-news-in-pics/|graphics/|a/js/seo-search.js|photo-gallery.html|twitter-proxy.php|royalty/royalhouses.html|zoom.html)
 RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]
-
-# Glide Articles
-RewriteCond  %{REQUEST_URI} ^(?:\/[a-zA-Z-]+){1,2}(?:\/[0-9]{6}\/){1}?(?:[a-zA-Z0-9-]+)\/$
-RewriteRule (.*) /404.html [R=404,L]
 
 # Articles
 RewriteCond %{REQUEST_URI} ^\/(news|travel|healthandbeauty|weddings|royalty|fashion|cuisine|brides|celebrities|profiles|film|music|the-buzz)(?!\/gallery)

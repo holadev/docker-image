@@ -11971,6 +11971,10 @@ RedirectMatch 301 ^/tags/1/royal-babies/(.*)$ https://www.hellomagazine.com/tags
 RewriteCond  %{REQUEST_URI} ^(?:\/[a-zA-Z-]+){1,2}(?:\/[0-9]{6}\/){1}?(?:[a-zA-Z0-9-]+)\/$
 RewriteRule (.*) /404.html [R=404,L]
 
+# Year 2022
+RewriteCond %{REQUEST_URI} ^\/((.+)\/){1,2}2022(\d){10}\/(.+)\/$
+RewriteRule (.*) /404.html [R=404,L]
+
 # Specific redirects
 RewriteCond %{REQUEST_URI} ^\/(celebrities|entertainment|news-in-pics|music|film)\/?$
 RewriteRule (.*) https://www.hellomagazine.com/celebrities/ [R=301,L]
