@@ -5233,6 +5233,10 @@ RewriteRule (.*) /404.html [R=404,L]
 RewriteCond %{REQUEST_URI} ^\/((.+)\/){1,2}2022(\d){10}\/(.+)\/$
 RewriteRule (.*) /404.html [R=404,L]
 
+# Year 2023
+RewriteCond %{REQUEST_URI} ^\/((.+)\/){1,2}2023(\d){10}\/(.+)\/$
+RewriteRule (.*) /404.html [R=404,L]
+
 # Reused sections
 RewriteCond %{REQUEST_URI} ^\/(specials/|tags/[^0/](.*)|homes/|horoscopes/|blogs/|search/|styles/|celebrities-news-in-pics/|graphics/|a/js/seo-search.js|photo-gallery.html|twitter-proxy.php|royalty/royalhouses.html|zoom.html)
 RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]

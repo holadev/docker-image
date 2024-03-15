@@ -11975,6 +11975,10 @@ RewriteRule (.*) /404.html [R=404,L]
 RewriteCond %{REQUEST_URI} ^\/((.+)\/){1,2}2022(\d){10}\/(.+)\/$
 RewriteRule (.*) /404.html [R=404,L]
 
+# Year 2023
+RewriteCond %{REQUEST_URI} ^\/((.+)\/){1,2}2023(\d){10}\/(.+)\/$
+RewriteRule (.*) /404.html [R=404,L]
+
 # Specific redirects
 RewriteCond %{REQUEST_URI} ^\/(celebrities|entertainment|news-in-pics|music|film)\/?$
 RewriteRule (.*) https://www.hellomagazine.com/celebrities/ [R=301,L]
