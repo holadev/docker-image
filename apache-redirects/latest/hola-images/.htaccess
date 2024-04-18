@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} ^tx=w_(.+)$
+RewriteRule (.*)$ https://www.hola.com/$1?im=Resize(%1) [R=301,L]
+
+RewriteRule (.*) https://www.hola.com/$1 [R=301,L]

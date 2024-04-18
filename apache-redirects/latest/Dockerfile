@@ -9,6 +9,7 @@ RUN mkdir -p /var/www/hello-origin
 RUN mkdir -p /var/www/hola-mx
 RUN mkdir -p /var/www/hola-blog
 RUN mkdir -p /var/www/hola-premiosgoya
+RUN mkdir -p /var/www/hola-images
 
 
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
@@ -21,11 +22,13 @@ COPY index.html /var/www/hola-us/
 COPY index.html /var/www/hola-ca/
 COPY index.html /var/www/hola-mx/
 COPY index.html /var/www/hola-premiosgoya/
+COPY index.html /var/www/hola-images/
 
 COPY hello-us/* /var/www/hello-us/
 COPY hello-ca/* /var/www/hello-ca/
 COPY hola-mx/* /var/www/hola-mx/
 COPY hola-blog/* /var/www/hola-blog/
+COPY hola-images/* /var/www/hola-images/
 COPY hola-premiosgoya/* /var/www/hola-premiosgoya/
 COPY hello-blog/* /var/www/hello-blog/
 COPY hello-fashion/* /var/www/hello-fashion/
