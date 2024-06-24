@@ -4,6 +4,7 @@ RUN mkdir -p /var/www/hello-us
 RUN mkdir -p /var/www/hello-ca
 RUN mkdir -p /var/www/hello-blog
 RUN mkdir -p /var/www/hello-fashion
+RUN mkdir -p /var/www/hello-india
 RUN mkdir -p /var/www/hello-royal-weddings
 RUN mkdir -p /var/www/hello-origin
 RUN mkdir -p /var/www/hola-mx
@@ -32,6 +33,7 @@ COPY hola-images/* /var/www/hola-images/
 COPY hola-premiosgoya/* /var/www/hola-premiosgoya/
 COPY hello-blog/* /var/www/hello-blog/
 COPY hello-fashion/* /var/www/hello-fashion/
+COPY hello-india/* /var/www/hello-india/
 COPY hello-royal-weddings/* /var/www/hello-royal-weddings/
 COPY hello-origin/* /var/www/hello-origin/
 

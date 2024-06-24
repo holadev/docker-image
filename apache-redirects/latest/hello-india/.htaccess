@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Home fallback
+RedirectMatch 301 ^/$ https://www.hellomagazine.com
+
+# All Articles
+RewriteCond  %{REQUEST_URI} (.*)
+RewriteRule (.*) /404.html [R=404,L]
