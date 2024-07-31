@@ -5217,9 +5217,18 @@ RedirectMatch 301 /tiff-2019 https://www.hellomagazine.com/
 RedirectMatch 301 /hello/royalty/royal-baby/inc_bloque.html https://www.hellomagazine.com/royalty/
 RedirectMatch 301 /deal https://secure.hellomagazine.ca/D3J2ZZZH
 RedirectMatch 301 /save https://secure.hellomagazine.ca/D3J1ZZZH
-RedirectMatch 301 /renewgift https://secure.hellomagazine.ca/renew
+RedirectMatch 301 /renewgift https://secure.hellomagazine.ca/renewgift
 RedirectMatch 301 /renew https://secure.hellomagazine.ca/renew
 RedirectMatch 301 /orderfast https://secure.hellomagazine.ca/J421ZZZH
+RedirectMatch 301 /sept1 https://secure.hellomagazine.ca/D491ZZZH
+RedirectMatch 301 /sept2 https://secure.hellomagazine.ca/D492ZZZH
+RedirectMatch 301 /sept3 https://secure.hellomagazine.ca/D493ZZZH
+RedirectMatch 301 /sept4 https://secure.hellomagazine.ca/D494ZZZH
+RedirectMatch 301 /jan1 https://secure.hellomagazine.ca/D511ZZZH
+RedirectMatch 301 /jan2 https://secure.hellomagazine.ca/D512ZZZH
+RedirectMatch 301 /jan3 https://secure.hellomagazine.ca/D513ZZZH
+RedirectMatch 301 /jan4 https://secure.hellomagazine.ca/D514ZZZH
+RedirectMatch 301 /gift https://secure.hellomagazine.ca/H481DEFH
 
 # Not generated sections
 RewriteCond %{REQUEST_URI} ^\/(weddings|the-buzz)\/?$
