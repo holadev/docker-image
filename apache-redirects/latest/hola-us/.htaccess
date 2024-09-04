@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^us.hola.com$ [NC]
+RewriteCond %{REQUEST_URI} ^/es/(.*)$
+RewriteRule ^es/(.*)$ https://www.hola.com/us-es/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^us.hola.com$
+RewriteRule (.*)$ https://www.hola.com/us%{REQUEST_URI} [R=301,L]
