@@ -133,6 +133,11 @@ Redirect 301 /myweddingscrapbook/2013/12/the-best-celebrity-weddings-of-2013.htm
 Redirect 301 /myweddingscrapbook/2014/02/get-the-look-tatiana-santo-domingos-ruffled-wedding-dress.html https://www.hellomagazine.com/tags/celebrity-weddings/
 Redirect 301 /myweddingscrapbook/2014/02/royal-wedding-tatiana-santo-domingos-winter-wedding-dress-2.html https://www.hellomagazine.com/tags/celebrity-weddings/
 
+RewriteRule ^ajodudu/2013/08/$ https://www.hellomagazine.com/film/20211218129097/strictly-aj-odudu-love-life-all-you-need-to-know/ [R=301,L]
+RewriteRule ^myweddingscrapbook/2012/11/the-engagement-rings-adorning-the-hands-of-the-british-royals.html/$ https://www.hellomagazine.com/brides/20221114156962/royal-engagement-rings-queen-consort-camilla-princess-anne-photos/ [R=301,L]
+RewriteRule ^myweddingscrapbook/2012/11/royal-weddings-princess-grace-of-monaco.html/$ https://www.hellomagazine.com/royalty/2018041969275/royal-weddings-grace-kelly-and-prince-rainier-iii-of-monaco/ [R=301,L]
+RewriteRule ^offtheshelf/2011/05/the-last-letter-from-your-lover-jojo-moyes.html/$ https://www.hellomagazine.com/film/20210806118771/jojo-moyes-the-last-letter-from-your-lover-spotlight-exclusive/ [R=301,L]
+
 # Glide Articles
 RewriteCond  %{REQUEST_URI} ^(?:\/[a-zA-Z-]+){1,2}(?:\/[0-9]{6}\/){1}?(?:[a-zA-Z0-9-]+)\/$
 RewriteRule (.*) /404.html [R=404,L]

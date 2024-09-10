@@ -5230,6 +5230,43 @@ RedirectMatch 301 /jan3 https://secure.hellomagazine.ca/D513ZZZH
 RedirectMatch 301 /jan4 https://secure.hellomagazine.ca/D514ZZZH
 RedirectMatch 301 /gift https://secure.hellomagazine.ca/H481DEFH
 
+RedirectMatch 301 /brides/gallery/200908211884/royal-brides/engagement-ring/princess-wed/1/	https://www.hellomagazine.com/brides/20221011153829/camilla-parker-bowles-engagement-ring-king-charles-family-photos/
+RedirectMatch 301 /royalty/02019120953972/unseen-photo-meghan-markle-volunteering-toronto-st-felix-centre-shelter/	https://www.hellomagazine.com/royalty/2019120881699/meghan-markle-new-photo-released-during-break-from-royal-duties/
+RedirectMatch 301 /royalty/02020121458374/meghan-markle-invests-clevr-blends-womens-start-up-instant-oat-milk-lattes/	https://www.hellomagazine.com/cuisine/20221114156994/oprah-favorite-things-meghan-markle-latte/
+RedirectMatch 301 /film/02018011641725/canadian-screen-awards-2018-nominees/	https://www.hellomagazine.com/celebrities/20180312127718/canadian-screen-awards-2018-winners/
+RedirectMatch 301 /film/02016011221880/annie-murphy-schitts-creek-alexis/	https://www.hellomagazine.com/film/20180515127022/annie-murphy-schitts-creek-favourite-ottawa-hot-spots/
+RedirectMatch 301 /music/02015082718389/shania-twain-a-to-z-guide-to-canada-s-queen-of-country-pop/	https://www.hellomagazine.com/profiles/20091008530/shania-twain/
+RedirectMatch 301 /royalty/02017112140216/sophie-wessex-vists-children-bangladesh/	https://www.hellomagazine.com/royalty/2017112144180/sophie-wessex-visits-bangladesh/
+RedirectMatch 301 /film/02017022433521/interview-downton-abbey-laura-carmichael-a-united-kingdom/	https://www.hellomagazine.com/tags/laura-carmichael/
+RedirectMatch 301 /celebrities/02018012241970/eugenie-fiance-jack-brooksbank-george-clooney/	https://www.hellomagazine.com/cuisine/2018012245631/princess-eugenie-fiance-jack-brooksbank-george-clooney/
+RedirectMatch 301 /music/02015062216996/mmvas-2015-all-the-highlights-and-winners/	https://www.hellomagazine.com/tags/vmas/
+RedirectMatch 301 /music/02015012712986/juno-awards-2015-avril-lavigne-nickelback-and-kiesza-among-nominees/	https://www.hellomagazine.com/tags/juno-awards/
+RedirectMatch 301 /film/02017011732360/canadian-screen-awards-2017-full-list-of-nominees/	https://www.hellomagazine.com/celebrities/20210521127830/schitts-creek-kims-convenience-2021-canadian-screen-awards-winners/
+RedirectMatch 301 /celebrities/02018042644716/amanda-brugel-handmaids-tale-interview/	https://www.hellomagazine.com/fashion/20220228134172/amanda-brugel-sag-awards-2022-red-carpet-look/
+RedirectMatch 301 /cuisine/2020101499007/the-queen-daily-diet-foods/	https://www.hellomagazine.com/cuisine/20221101150562/the-queen-longevity-secret-diet-breakfast-lunch-dinner/
+RedirectMatch 301 /cuisine/02016053126725/queen-favourite-food-chocolate-royal-chef-darren-mcgrady/	https://www.hellomagazine.com/cuisine/20220919151528/queen-elizabeth-11-favourite-food/
+RedirectMatch 301 /celebrities/02016011522026/rene-angelil-music-career-highlights/	https://www.hellomagazine.com/tags/rene-angelil/
+RedirectMatch 301 /celebrities/02018091447267/blake-lively-interview-social-media-ryan-reynolds/	https://www.hellomagazine.com/celebrities/20230117161983/ryan-reynolds-blake-lively-relationship-timeline/
+RedirectMatch 301 /royalty/02018060145458/princess-diana-hiv-aids-handshake-pride-month/	https://www.hellomagazine.com/royalty/20220210132786/prince-harry-feels-obligated-to-continue-princess-diana-work-hiv-stigma/
+RedirectMatch 301 /celebrities/02014110711225/jennifer-lopez-on-ben-affleck-split-it-felt-like-my-heart-had-been-torn-out-of-my-chest/	https://www.hellomagazine.com/brides/514278/the-real-reason-jennifer-lopez-ben-affleck-split-2004-details-first-wedding-documentary/
+RedirectMatch 301 /royalty/02019032650601/prince-harry-meghan-markle-soundproof-home/	https://www.hellomagazine.com/homes/20230302165753/prince-harry-meghan-markle-frogmore-cottage-inside-photos/
+RedirectMatch 301 /royalty/02018040544144/princess-caroline-life-with-parents-grace-kelly-prince-rainier/	https://www.hellomagazine.com/royalty/2018040547544/princess-caroline-relationship-parents-grace-kelly-prince-rainier/
+RedirectMatch 301 /fashion/02018051645080/meghan-markle-royal-wedding-gown-burberry/	https://www.hellomagazine.com/brides/20221215159648/prince-harry-meghan-markle-royal-celebrity-wedding-guest-comments/
+RedirectMatch 301 /cuisine/2018011745522/kate-middleton-princess-charlotte-favourite-food/	https://www.hellomagazine.com/royalty/504844/prince-george-dinner-plans-rugby-prince-william/
+RedirectMatch 301 /royalty/02020101757820/meghan-markle-prince-harry-gorgeous-new-portrait-princess-diana-tribute-cartier-watch/	https://www.hellomagazine.com/royalty/2020101799232/meghan-markle-wears-princess-diana-cartier-watch/
+RedirectMatch 301 /royalty/02016091929670/princess-eugenie-jack-brooksbank-balmoral-engagement-rumours/	https://www.hellomagazine.com/royalty/513710/princess-eugenie-husband-jack-brooksbank-tender-moments-photos/
+RedirectMatch 301 /royalty/02018031543690/prince-harry-meghan-markle-royal-wedding-everything-we-know/	https://www.hellomagazine.com/brides/493281/prince-harry-meghan-markle-royal-wedding-rare-photos-revealed/
+RedirectMatch 301 /fashion/02015040214955/on-the-town-with-shinan-spending-time-in-toronto-with-a-unicorn-of-fashion-karl-lagerfeld/	https://www.hellomagazine.com/profiles/2009100822/karl-lagerfeld/
+RedirectMatch 301 /royalty/02018031943741/meghan-markle-prince-harry-date-night-netflix/	https://www.hellomagazine.com/royalty/514998/prince-harry-meghan-markle-spotted-romantic-date-night-special-location/
+RedirectMatch 301 /tags/0/queen-elizabeth-ii/	https://www.hellomagazine.com/tags/the-queen/
+RedirectMatch 301 /royalty/02016110230726/prince-harry-meghan-markle-designer-misha-nonoo/	https://www.hellomagazine.com/hfm/2019091277672/who-is-misha-nonoo/
+RedirectMatch 301 /fashion/02016080928591/kourtney-kardashian-barbara-casasola-dress-kate-middleton-same/	https://www.hellomagazine.com/fashion/celebrity-style/2016080956068/kourtney-kardashian-wears-same-dress-kate-middleton/
+RedirectMatch 301 /tags/0/countess-of-wessex/	https://www.hellomagazine.com/tags/sophie-wessex/
+RedirectMatch 301 /cuisine/02018013042320/royal-family-food-never-eat-shellfish/	https://www.hellomagazine.com/cuisine/2018013045873/royal-family-never-eat-this-food/
+RedirectMatch 301 /fashion/02015062317011/prince-george-kate-amaia-kids/	https://www.hellomagazine.com/royalty/2015062225908/prince-george-gardening-prince-charles/
+RedirectMatch 301 /tags/0/prince-philip/	https://www.hellomagazine.com/tags/prince-philip/
+RedirectMatch 301 /fashion/02017121140801/meghan-markle-strathberry-bag-sells-out/	https://www.hellomagazine.com/hfm/culture/507714/strathberry-we-investigate-exactly-what-goes-on-at-the-royal-approved-bag-brand/
+
 # Not generated sections
 RewriteCond %{REQUEST_URI} ^\/(weddings|the-buzz)\/?$
 RewriteRule (.*) https://www.hellomagazine.com/$1 [R=301,L]

@@ -31,7 +31,6 @@ Redirect 301 "/a/rihanna-dicaprio/" "https://www.hellomagazine.com/celebrities/2
 Redirect 301 "/film/200906291540/russell-crowe/pub-tip/carew-inn/" "https://www.hellomagazine.com/film/200907301743/russell-crowedonation-cancerrobin-hood/"
 Redirect 301 "/music/2013031911674/hilary-duff-new-heart-tattoo/" "https://www.hellomagazine.com/celebrities/2013031911674/hilary-duff-new-heart-tattoo/"
 Redirect 301 "/music/2002/10/18/aguilera-video/" "https://www.hellomagazine.com/tags/christina-aguilera/"
-Redirect 301 "/celebrities/201103215130/melanie-brown/stephen-belafonte/pregnant-romance-pictures/" "https://www.hellomagazine.com/celebrities/2017032137501/mel-b-divorce-stephen-belafonte/"
 Redirect 301 "/royalty/gallery/02016111030865/modern-monarch-how-the-queen-moved-with-the-times/1/" "https://www.hellomagazine.com/royalty/2016042031016/the-queen-ever-modern-monarch/"
 
 RedirectMatch 301 /(.*)/gallery/1[0-9]{8}5925/(.*)$ https://www.hellomagazine.com/royalty/2015070568587/princess-charlottes-godparents-announced/ 
@@ -12012,6 +12011,12 @@ RewriteRule (.*) /404.html [R=404,L]
 # Year 2023
 RewriteCond %{REQUEST_URI} ^\/((.+)\/){1,2}2023(\d){10}\/(.+)\/$
 RewriteRule (.*) /404.html [R=404,L]
+
+# Specific article redirects
+RewriteRule ^celebrities/201103215130/melanie-brown/stephen-belafonte/pregnant-romance-pictures/$ https://www.hellomagazine.com/celebrities/2017032137501/mel-b-divorce-stephen-belafonte/ [R=301,L]
+RewriteRule ^royalty/2016050131205/barack-obama-jokes-about-meeting-prince-george/0/$ https://www.hellomagazine.com/royalty/2016050131205/barack-obama-jokes-about-meeting-prince-george/ [R=301,L]
+RewriteRule ^healthandbeauty/makeup/201010054196/best-time/eyebrows/plucking/$ https://www.hellomagazine.com/hfm/20220721146079/how-to-find-your-ideal-eyebrow-shape/ [R=301,L]
+RewriteRule ^royalty/201003293185/queen-rania/hello/Jordan/$ https://www.hellomagazine.com/tags/queen-rania/ [NC,R=301,L]
 
 # Specific redirects
 RewriteCond %{REQUEST_URI} ^\/(celebrities|entertainment|news-in-pics|music|film)\/?$
