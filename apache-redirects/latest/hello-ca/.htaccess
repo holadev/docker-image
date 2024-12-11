@@ -5266,6 +5266,10 @@ RedirectMatch 301 /cuisine/02018013042320/royal-family-food-never-eat-shellfish/
 RedirectMatch 301 /fashion/02015062317011/prince-george-kate-amaia-kids/	https://www.hellomagazine.com/royalty/2015062225908/prince-george-gardening-prince-charles/
 RedirectMatch 301 /tags/0/prince-philip/	https://www.hellomagazine.com/tags/prince-philip/
 RedirectMatch 301 /fashion/02017121140801/meghan-markle-strathberry-bag-sells-out/	https://www.hellomagazine.com/hfm/culture/507714/strathberry-we-investigate-exactly-what-goes-on-at-the-royal-approved-bag-brand/
+RedirectMatch 301 /jan5 https://secure.hellomagazine.ca/D51AZZZH
+RedirectMatch 301 /jan6 https://secure.hellomagazine.ca/D51BZZZH
+RedirectMatch 301 /jan7 https://secure.hellomagazine.ca/D51CZZZH
+
 
 # Not generated sections
 RewriteCond %{REQUEST_URI} ^\/(weddings|the-buzz)\/?$
