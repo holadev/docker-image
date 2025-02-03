@@ -1,4 +1,5 @@
 RewriteEngine On
+RedirectMatch 301 ^/ https://www.hola.com/moda/
 RedirectMatch 301 ^/madrid/otono-invierno-2013-2014m/desfiles/201302182274/desfile-miguel-palacio/ https://www.hola.com/moda/
 RedirectMatch 301 ^/madrid/otono-invierno-2014-2015m/desfiles/201402162577/desfile-victorio-lucchino/ https://www.hola.com/moda/
 RedirectMatch 301 ^/madrid/otono-invierno-2015-2016m/desfiles/201502092904/desfile-devota-lomba/ https://www.hola.com/moda/
@@ -455,4 +456,5 @@ RewriteCond %{REQUEST_URI} !^/madrid/otono-invierno-2016-2017m/desfiles/20160219
 RewriteCond %{REQUEST_URI} !^/madrid/otono-invierno-2015-2016m/desfiles/201502062844/desfile-desigual/$
 RewriteCond %{REQUEST_URI} !^/madrid/otono-invierno-2016-2017m/desfiles/201602213273/desfile-etxeberria/$
 RewriteCond %{REQUEST_URI} !^/madrid/otono-invierno-2015-2016m/desfiles/201502102913/desfile-alvarno/$
+RewriteCond %{REQUEST_URI} !^/$
 RewriteRule .* - [G]
