@@ -12,6 +12,7 @@ RUN mkdir -p /var/www/hola-blog
 RUN mkdir -p /var/www/hola-premiosgoya
 RUN mkdir -p /var/www/hola-images
 RUN mkdir -p /var/www/hola-us
+RUN mkdir -p /var/www/hola-fashionweek
 
 
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
@@ -38,5 +39,6 @@ COPY hello-fashion/* /var/www/hello-fashion/
 COPY hello-india/* /var/www/hello-india/
 COPY hello-royal-weddings/* /var/www/hello-royal-weddings/
 COPY hello-origin/* /var/www/hello-origin/
+COPY hola-fashionweek/* /var/www/hola-fashionweek/
 
 EXPOSE 80
