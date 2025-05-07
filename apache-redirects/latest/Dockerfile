@@ -42,5 +42,6 @@ COPY hello-royal-weddings/* /var/www/hello-royal-weddings/
 COPY hello-origin/* /var/www/hello-origin/
 COPY hola-fashionweek/* /var/www/hola-fashionweek/
 COPY hola/* /var/www/hola/
+COPY quiosco-static/* /var/www/quiosco-static/
 
 EXPOSE 80
