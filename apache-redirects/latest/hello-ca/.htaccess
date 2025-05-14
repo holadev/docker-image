@@ -5151,8 +5151,14 @@ RedirectMatch 301 /sub22 https://secure.hellomagazine.ca/J1DBZZZH
 RedirectMatch 301 /news22 https://secure.hellomagazine.ca/J1DAZZZH 
 RedirectMatch 301 /greatdeal https://secure.hellomagazine.ca/J22FZZZH 
 RedirectMatch 301 /contact/ https://www.hellomagazine.com/contact/ 
-RedirectMatch 301 /may1 https://secure.hellomagazine.ca/D24AZZZH 
-RedirectMatch 301 /may2 https://secure.hellomagazine.ca/D24AZZZH 
+RedirectMatch 301 /may1 https://secure.hellomagazine.ca/D551ZZZH
+RedirectMatch 301 /may2 https://secure.hellomagazine.ca/D552ZZZH
+RedirectMatch 301 /may3 https://secure.hellomagazine.ca/D553ZZZH
+RedirectMatch 301 /may4 https://secure.hellomagazine.ca/D554ZZZH
+RedirectMatch 301 /may5 https://secure.hellomagazine.ca/D555ZZZH
+RedirectMatch 301 /may6 https://secure.hellomagazine.ca/D556ZZZH
+RedirectMatch 301 /may7 https://secure.hellomagazine.ca/L551ZZZH
+RedirectMatch 301 /may8 https://secure.hellomagazine.ca/L552ZZZH
 RedirectMatch 301 /specialoffer22 https://secure.hellomagazine.ca/J24CCRSH 
 RedirectMatch 301 /gift1 https://secure.hellomagazine.ca/G29AZZZH 
 RedirectMatch 301 /give1 https://secure.hellomagazine.ca/G29AZZZH 
