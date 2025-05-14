@@ -14,6 +14,8 @@ RUN mkdir -p /var/www/hola-images
 RUN mkdir -p /var/www/hola-us
 RUN mkdir -p /var/www/hola-fashionweek
 RUN mkdir -p /var/www/hola
+RUN mkdir -p /var/www/quiosco-static
+RUN mkdir -p /var/www/himgs
 
 
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
@@ -43,5 +45,6 @@ COPY hello-origin/* /var/www/hello-origin/
 COPY hola-fashionweek/* /var/www/hola-fashionweek/
 COPY hola/* /var/www/hola/
 COPY quiosco-static/* /var/www/quiosco-static/
+COPY himgs/* /var/www/himgs/
 
 EXPOSE 80
