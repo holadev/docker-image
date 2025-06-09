@@ -5279,6 +5279,7 @@ RedirectMatch 301 /feb1 https://secure.hellomagazine.ca/D521ZZZH
 RedirectMatch 301 /subscribe https://secure.hellomagazine.ca/J53AZZZH
 RedirectMatch 301 /subs https://secure.hellomagazine.ca/J531ZZZH
 RedirectMatch 301 /news https://secure.hellomagazine.ca/J532ZZZH
+RedirectMatch 301 /multi https://secure.hellomagazine.ca/W55MMULH
 
 
 # Not generated sections
