@@ -5235,6 +5235,7 @@ RedirectMatch 301 /jan2 https://secure.hellomagazine.ca/D512ZZZH
 RedirectMatch 301 /jan3 https://secure.hellomagazine.ca/D513ZZZH
 RedirectMatch 301 /jan4 https://secure.hellomagazine.ca/D514ZZZH
 RedirectMatch 301 /gift https://secure.hellomagazine.ca/H481DEFH
+RedirectMatch 301 /give https://secure.hellomagazine.ca/G5N2GFTH
 
 RedirectMatch 301 /brides/gallery/200908211884/royal-brides/engagement-ring/princess-wed/1/	https://www.hellomagazine.com/brides/20221011153829/camilla-parker-bowles-engagement-ring-king-charles-family-photos/
 RedirectMatch 301 /royalty/02019120953972/unseen-photo-meghan-markle-volunteering-toronto-st-felix-centre-shelter/	https://www.hellomagazine.com/royalty/2019120881699/meghan-markle-new-photo-released-during-break-from-royal-duties/
