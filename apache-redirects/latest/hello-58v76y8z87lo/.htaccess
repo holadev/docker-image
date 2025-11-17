@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^58v76y8z87lo\.hellomagazine\.com$ [NC]
+RewriteRule ^(.*)$ https://images.hellomagazine.com/$1 [R=301,L]

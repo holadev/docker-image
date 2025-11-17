@@ -16,6 +16,7 @@ RUN mkdir -p /var/www/hola-fashionweek
 RUN mkdir -p /var/www/hola
 RUN mkdir -p /var/www/quiosco-static
 RUN mkdir -p /var/www/himgs
+RUN mkdir -p /var/www/hello-58v76y8z87lo
 
 
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
@@ -29,6 +30,7 @@ COPY index.html /var/www/hola-ca/
 COPY index.html /var/www/hola-mx/
 COPY index.html /var/www/hola-premiosgoya/
 COPY index.html /var/www/hola-images/
+COPY index.html /var/www/hello-58v76y8z87lo
 
 COPY hello-us/* /var/www/hello-us/
 COPY hello-ca/* /var/www/hello-ca/
@@ -46,5 +48,6 @@ COPY hola-fashionweek/* /var/www/hola-fashionweek/
 COPY hola/* /var/www/hola/
 COPY quiosco-static/* /var/www/quiosco-static/
 COPY himgs/* /var/www/himgs/
+COPY hello-58v76y8z87lo/* /var/www/hello-58v76y8z87lo/
 
 EXPOSE 80
