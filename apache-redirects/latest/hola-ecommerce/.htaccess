@@ -1,4 +1,4 @@
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^suscribete\.hola\.com$ [NC]
-RewriteRule ^(.*)$ https://suscripciones.hola.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://suscripciones.hola.com/$1 [R=308,L]
