@@ -50,5 +50,6 @@ COPY quiosco-static/* /var/www/quiosco-static/
 COPY himgs/* /var/www/himgs/
 COPY hello-58v76y8z87lo/* /var/www/hello-58v76y8z87lo/
 COPY hola-ecommerce/* /var/www/hola-ecommerce/
+COPY hello/* /var/www/hello/
 
 EXPOSE 80
