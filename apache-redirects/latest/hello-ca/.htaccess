@@ -5282,6 +5282,7 @@ RedirectMatch 301 /subs https://secure.hellomagazine.ca/J531ZZZH
 RedirectMatch 301 /news https://secure.hellomagazine.ca/J532ZZZH
 RedirectMatch 301 /multi https://secure.hellomagazine.ca/W55MMULH
 RedirectMatch 301 /sub https://secure.hellomagazine.ca/J683BLWH
+RedirectMatch 301 /blackfriday https://secure.hellomagazine.ca/M6NCBLKH
 
 
 # Not generated sections
